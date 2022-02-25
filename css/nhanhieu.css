@@ -1,0 +1,119 @@
+.wrapper{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.header {
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    width: 200px;
+}
+.logo {
+    height: 100px;
+    background: white;
+}
+.banner{
+    height: 450px;
+}
+.banner > img{
+    height: 450px;
+    width: 100%;
+}
+.menu {
+    height: 40px;
+    background: rgb(238, 238, 95);
+    position: fixed;
+    width: 99%;
+    top: 102px;
+}
+h1{
+    color: green;
+    border-bottom: double orange;
+    text-align: center;
+    font-size: 30px;
+}
+.card{
+    float:left;
+    width: 25%;
+}
+.card>img{
+    height: 200px;
+    margin-left: 300px;
+    padding:3px ;
+    box-shadow: 1px 1px 1px 2px gray;
+    margin: 45px;
+}
+.card:hover{
+    
+    transform: scale(1.2,1.2);
+}
+.footer{
+    float: left;
+    height: 200px;
+    background: rgb(238, 238, 95);
+    width: 100%;
+}
+.footer1{
+    float: left;
+}    
+.footer1> img{
+    height: 70px;
+    padding: 5px 170px;
+    margin: 4px;
+}
+.footer1> p{
+    padding: 5px 115px;
+    margin: 4px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: rgb(10, 7, 7);
+    padding: 8px 50px;
+    line-height: 20px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(238, 238, 95);
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: rgb(255, 0, 0);
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0px 10px;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}   
+.menu>ul>li:hover>ul{
+    display: block;
+}

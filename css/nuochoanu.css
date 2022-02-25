@@ -1,0 +1,238 @@
+.wraper{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.header {
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    width: 200px;
+}
+.logo {
+    height: 100px;
+    background: white;
+}
+.banner{
+    height: 450px;
+}
+.banner > img{
+    height: 450px;
+    width: 100%;
+}
+.menu {
+    height: 40px;
+    background: rgb(238, 238, 95);
+    position: fixed;
+    width: 99%;
+    top: 102px;
+}
+.menu>ul>li{
+display: inline-block;
+position: relative;
+}
+.menu>ul>li>a{
+display: block;
+text-decoration: none;
+font-variant: small-caps;
+font-size: large;
+color: rgb(10, 7, 7);
+padding: 8px 50px;
+line-height: 20px;
+}
+.menu>ul{
+padding: 0px;
+margin: 0px;
+list-style: none;
+border-radius: 3px;
+background-color: rgb(238, 238, 95);
+text-align: center;
+}
+.menu>ul>li>a:hover{
+color: rgb(255, 0, 0);
+}
+.menu ul ul{
+position: absolute;
+display: none;
+padding: 0px;
+margin: 0px;
+list-style: none;
+border-radius: 3px;
+width: 200px;
+background-color: white;
+box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+display: block;
+line-height: 30px;
+color: orangered;
+text-decoration: none;
+font-variant: small-caps;
+font-size: large;
+padding: 0px 10px;
+}
+.menu ul ul a:hover{
+background-color: orangered;
+color: white;
+}   
+.menu>ul>li:hover>ul{
+display: block;
+}
+
+.left{
+    width: 20%;
+    height: 900px;
+    background-color: rgb(254, 255, 254);
+    float: left;
+}
+fieldset{
+    height: 360px;
+    width: 85%;
+}
+fieldset> legend{
+    color: rgb(175, 25, 125);
+}
+fieldset>p{
+    background:url("../images/3.svg") no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: blueviolet;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 50px;
+}
+fieldset> p:hover{
+    background-color: white ;
+    color: brown;
+    background:url('../images/4.svg') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(224, 28, 28);
+}
+.right{
+    width: 80%;
+    height: 1400px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.col-25{
+    width: 30%;
+   float: left;
+    height: 50px;
+    padding-left: 9px;
+}
+.col-26{
+    width: 30%;
+    float: left;
+    height: 50px;
+     padding-left: 9px;
+     margin: 220px 1px ;
+}
+.col-27{
+    width: 30%;
+    float: left;
+    height: 50px;
+     padding-left: 9px;
+     margin: 9px 1px ;
+}
+.col-28{
+    width: 30%;
+    float: left;
+    height: 50px;
+     padding-left: 9px;
+     margin: 220px 1px ;
+}
+.col-29{
+    width: 30%;
+    float: left;
+    height: 50px;
+     padding-left: 9px;
+     margin: 9px 1px ;
+}
+.prod:hover{
+    box-shadow: 0 0 20px red;
+    transform: scale(1.2,1.2);
+}
+.prod{
+    border-radius: 10px;
+    box-shadow:0 0 20px rgb(255, 251, 9);
+    margin:20px 40px;
+    padding:20px ;
+    text-align:center;
+    position:relative;
+    background-color: rgb(255, 255, 255);
+}
+.prod>.name{
+    font-variant:small-caps;
+    color:orangered;
+
+}
+.prod>.images{
+    max-width:98%;
+    height:150px;
+    margin-bottom:10 px;
+}
+.prod>.price{
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    font-size:25px;
+    color: orange;
+}
+.prod>.icon{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    width:25px;
+    
+}
+.icon> img{
+    height: 18px;
+
+}
+.new-icon{
+    position: absolute;
+    height: 80px;
+    top: 2px;
+    right: 5px;
+}
+.nut{
+    height: 25px;
+    width: 80%;
+    background-color: rgb(239, 243, 26);
+   margin: 10px 35px;
+}
+.nut>a{
+    color: rgb(209, 12, 12);
+    text-decoration: none;
+    padding-left: 105px;
+    font-size: 20px;
+}
+.nut:hover{
+    background-color: chocolate;
+}
+.nut>a:hover{
+    color: greenyellow;
+}
+.clearfix {
+    clear: both;}
+.footer{
+    float: left;
+    height: 200px;
+    background: rgb(238, 238, 95);
+    width: 100%;
+}
+.footer1{
+    float: left;
+}    
+.footer1> img{
+    height: 70px;
+    padding: 5px 170px;
+    margin: 4px;
+}
+.footer1> p{
+    padding: 5px 115px;
+    margin: 4px;
+}

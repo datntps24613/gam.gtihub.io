@@ -1,0 +1,186 @@
+.wraper{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.header {
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    width: 200px;
+}
+.logo {
+    height: 100px;
+    background: white;
+}
+.banner{
+    height: 450px;
+}
+.banner > img{
+    height: 450px;
+    width: 100%;
+}
+.menu {
+    height: 40px;
+    background: rgb(238, 238, 95);
+   position: fixed;
+    width: 99%;
+    top: 102px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: rgb(10, 7, 7);
+    padding: 8px 50px;
+    line-height: 20px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(238, 238, 95);
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: rgb(255, 0, 0);
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0px 10px;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}   
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.lefcolumn{
+   float: left;
+   width: 23% ;
+   background: white;
+   height: 700px;
+}
+.card> iframe{
+    width: 300px;
+    height: 223px;
+}
+.card{
+    background-color:rgb(232, 245, 112);
+    padding: 15px;
+    text-align: center;
+    margin-top:20px ;
+}
+.card h2{
+    color: white; 
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+.card1 {
+    background-color:rgb(232, 245, 112);
+    padding: 10px;
+    text-align: left;
+    margin-top:40px ;
+}
+.card1 p{
+    background:url(" ../images/bullet1.svg") no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: blueviolet;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 50px;
+}
+.card1 h2{
+    color: white; 
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+.card1 p:hover{
+    background-color: white ;
+    color: brown;
+    background:url('../images/bullet3.svg') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(224, 28, 28);
+}
+.rightcolumn{
+   float: left;
+   width: 77%;
+   height: 1800px;
+   background: rgb(255, 255, 255);
+}
+.images{
+    width:100% ;
+    height:250px ;
+    border-radius: 20px;
+}
+.card-new{
+    float: left;
+    width: 24%;
+    background: rgb(245, 245, 163);
+    padding: 30px;
+    margin: 20px;
+    border-radius:20px ;
+}
+.card-new:hover{
+    box-shadow: 2px 2px 23px rgb(252, 122, 122);
+    background-color: rgb(205, 247, 144);
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.gia{
+    color: red;
+    
+}
+.gia del{
+    color: black;
+}
+.clearfix {
+    clear: both;}
+.footer{
+        float: left;
+        height: 200px;
+        background: rgb(238, 238, 95);
+        width: 100%;
+}
+.footer1{
+        float: left;
+}    
+.footer1> img{
+        height: 70px;
+        padding: 5px 170px;
+        margin: 4px;
+}
+.footer1> p{
+        padding: 5px 115px;
+        margin: 4px;
+}
+
